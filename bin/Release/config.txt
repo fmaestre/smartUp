@@ -1,2 +1,0 @@
-﻿Server=MXTIJ01L034\SQLEXPRESS;User=sa;Password=sa;Db=smartlab;Table=ResultadosImmulite;
-Ana=2;Id=3;Res=7;Fec=12;sep=semicolon;
