@@ -1,0 +1,6 @@
+# Connect to SFTP server using a password
+open sftp://nacho:$Magacho80@108.161.151.250:7932/ -hostkey="ssh-rsa 2048 oWqIDGBjdPuwKSJyab9iJOBZxUych5dpFHPDxwl0ojk="
+# Upload file
+put C:\SmartUp\ftpfiles\*.txt /home/nacho/SmartLab/Nexus/
+# Exit WinSCP
+exit
