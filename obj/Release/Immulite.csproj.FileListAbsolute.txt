@@ -1,0 +1,14 @@
+C:\Users\fmaestre\Google Drive\Projects\SmartLab_Interfaces\Immulite\obj\Release\Immulite.Form1.resources
+C:\Users\fmaestre\Google Drive\Projects\SmartLab_Interfaces\Immulite\obj\Release\Immulite.Properties.Resources.resources
+C:\Users\fmaestre\Google Drive\Projects\SmartLab_Interfaces\Immulite\obj\Release\Immulite.csproj.GenerateResource.cache
+C:\Users\fmaestre\Google Drive\Projects\SmartLab_Interfaces\Immulite\obj\Release\Immulite.csproj.CoreCompileInputs.cache
+C:\Users\fmaestre\Google Drive\Projects\SmartLab_Interfaces\Immulite\bin\Release\SmartUP_Immulite.exe.config
+C:\Users\fmaestre\Google Drive\Projects\SmartLab_Interfaces\Immulite\bin\Release\SmartUP_Immulite.exe.manifest
+C:\Users\fmaestre\Google Drive\Projects\SmartLab_Interfaces\Immulite\bin\Release\SmartUP_Immulite.application
+C:\Users\fmaestre\Google Drive\Projects\SmartLab_Interfaces\Immulite\bin\Release\SmartUP_Immulite.exe
+C:\Users\fmaestre\Google Drive\Projects\SmartLab_Interfaces\Immulite\bin\Release\SmartUP_Immulite.pdb
+C:\Users\fmaestre\Google Drive\Projects\SmartLab_Interfaces\Immulite\obj\Release\SmartUP_Immulite.exe.manifest
+C:\Users\fmaestre\Google Drive\Projects\SmartLab_Interfaces\Immulite\obj\Release\SmartUP_Immulite.application
+C:\Users\fmaestre\Google Drive\Projects\SmartLab_Interfaces\Immulite\obj\Release\SmartUP_Immulite.exe
+C:\Users\fmaestre\Google Drive\Projects\SmartLab_Interfaces\Immulite\obj\Release\SmartUP_Immulite.pdb
+C:\Users\fmaestre\Google Drive\Projects\SmartLab_Interfaces\Immulite\obj\Release\Immulite.csprojAssemblyReference.cache

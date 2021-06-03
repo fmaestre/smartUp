@@ -1,0 +1,244 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{72839EAF-5C27-4663-9904-92A0B8335B6C}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>SmartUp</RootNamespace>
+    <AssemblyName>SmartUP_SocketGeneric</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <TargetFrameworkProfile />
+    <PublishUrl>C:\Users\fmaestre\Google Drive\Projects\SmartLab_Interfaces\SmartUp\Publish\SocketGenericMindarayBC3600\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>52</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>B28B78B77421BE135C48A702DFDA718ABD8EECD6</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>Immulite_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>false</SignManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>SmartUp.Program</StartupObject>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>sh.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ClientSocket.cs" />
+    <Compile Include="CommTimer.cs" />
+    <Compile Include="frmSQLGenericToSQL.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSQLGenericToSQL.Designer.cs">
+      <DependentUpon>frmSQLGenericToSQL.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmFileToSQL.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmFileToSQL.Designer.cs">
+      <DependentUpon>frmFileToSQL.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmFromSocketGeneric.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmFromSocketGeneric.Designer.cs">
+      <DependentUpon>frmFromSocketGeneric.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmFromNetworkGeneric.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmFromNetworkGeneric.Designer.cs">
+      <DependentUpon>frmFromNetworkGeneric.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmFromSerialGeneric.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmFromSerialGeneric.Designer.cs">
+      <DependentUpon>frmFromSerialGeneric.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmFromSerialClinitekPlayas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmFromSerialClinitekPlayas.Designer.cs">
+      <DependentUpon>frmFromSerialClinitekPlayas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmFromSerialST200.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmFromSerialST200.Designer.cs">
+      <DependentUpon>frmFromSerialST200.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmFromSerialCoagulyzer-4K.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmFromSerialCoagulyzer-4K.Designer.cs">
+      <DependentUpon>frmFromSerialCoagulyzer-4K.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmFromSerialClinitek.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmFromSerialClinitek.Designer.cs">
+      <DependentUpon>frmFromSerialClinitek.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmFromSerialSwelab.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmFromSerialSwelab.Designer.cs">
+      <DependentUpon>FrmFromSerialSwelab.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmFromFile.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmFromFile.Designer.cs">
+      <DependentUpon>FrmFromFile.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmXmlNaval.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmXmlNaval.Designer.cs">
+      <DependentUpon>FrmXmlNaval.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmImmulite.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmImmulite.Designer.cs">
+      <DependentUpon>FrmImmulite.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="frmSQLGenericToSQL.resx">
+      <DependentUpon>frmSQLGenericToSQL.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmFileToSQL.resx">
+      <DependentUpon>frmFileToSQL.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmFromSocketGeneric.resx">
+      <DependentUpon>frmFromSocketGeneric.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmFromNetworkGeneric.resx">
+      <DependentUpon>frmFromNetworkGeneric.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmFromSerialGeneric.resx">
+      <DependentUpon>frmFromSerialGeneric.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmFromSerialClinitekPlayas.resx">
+      <DependentUpon>frmFromSerialClinitekPlayas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmFromSerialST200.resx">
+      <DependentUpon>frmFromSerialST200.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmFromSerialCoagulyzer-4K.resx">
+      <DependentUpon>frmFromSerialCoagulyzer-4K.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmFromSerialClinitek.resx">
+      <DependentUpon>frmFromSerialClinitek.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmFromSerialSwelab.resx">
+      <DependentUpon>FrmFromSerialSwelab.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmFromFile.resx">
+      <DependentUpon>FrmFromFile.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmXmlNaval.resx">
+      <DependentUpon>FrmXmlNaval.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmImmulite.resx">
+      <DependentUpon>FrmImmulite.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Immulite_TemporaryKey.pfx" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="ftptest.txt" />
+    <Content Include="README.txt" />
+    <Content Include="sh.ico" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="SmartUP_Immulite.exe" version="1.0.0.1" publicKeyToken="76b834eed4999271" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="SmartUP_Immulite" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="SmartUP_Immulite.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="SmartUP_Immulite.exe" size="13264">
+      <assemblyIdentity name="SmartUP_Immulite" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>JA+Eode7fSKJHk3N/MUspr9J51zz6CRDIOWxAeB+hPM=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="config.txt" size="116">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>8iGFXC9HIgcn1QMwwrVPvH5yEKFJL0hjv63ivbwEzu4=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="SmartUP_Immulite.exe.config" size="189">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>rl5/qDc7Jz+tB+BIbOv9iMGPlRe6YJwrjmU09dnlPcs=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=ANGIO\fmaestre" issuerKeyHash="874a8abf58d6867a9476c98aaebd16c8172019ae" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>jyZxhjjh4P3/PrM9H3xPj7Ld5VolABQjBWBAaRvJT5A=</DigestValue></Reference></SignedInfo><SignatureValue>rAt3NIAv902G+8dPtTgNYffkQqcc+oAda3ZtA4YiYSAgs/WAFsuGIK5WVmDp1FkptKzjVw/dWSQAYTr3XNHzXSRxhhqF9QG9E53nIywrdh3sdU5H/h/NTqcegSIAMMtJC/U/HQ3cmWC6XsqCBUJtbUEp4b81tuTr5nURmF7kkrg=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>7SiatVtSMnW5j36OkfSJ/XHx6UfQVPBW5+SKz5nyZJdfgCX9r+332iSZ3wEqIrc5quEVocrUvkZQgLQhYlEtPEskWWLcpIIZeNyE3UHXt037+JsbhzsSiuEiBavCFz4JccrqcX1wfjdMGP5FmXj9a8wq4Q5I5uAxLU7WuumqnE8=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="904fc91b69406005231400255ae5ddb28f4f7c1f3db33efffde0e1388671268f" Description="" Url=""><as:assemblyIdentity name="SmartUP_Immulite.exe" version="1.0.0.1" publicKeyToken="76b834eed4999271" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=ANGIO\fmaestre</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>AIlxFpHiZJNIRTMi5qgSRRVMqYg5QiHavyp2cuhf1ak=</DigestValue></Reference></SignedInfo><SignatureValue>T3awwHVzoD+3rwW74ypRRgrAl176y1CVePvcQSn1zjI6DARkUNpaCgPia4I6VVa3iw2FEP0Pk4Vjv9HwapUTophxO3RSBHsqaZHvMHn2i92KnBWTb8F4uLspzId8BqeWGsYQVLj7gQVPlG+X3Wcww4Y3m5NmQJ8oRv8Q9lUMhHw=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>7SiatVtSMnW5j36OkfSJ/XHx6UfQVPBW5+SKz5nyZJdfgCX9r+332iSZ3wEqIrc5quEVocrUvkZQgLQhYlEtPEskWWLcpIIZeNyE3UHXt037+JsbhzsSiuEiBavCFz4JccrqcX1wfjdMGP5FmXj9a8wq4Q5I5uAxLU7WuumqnE8=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB0TCCATqgAwIBAgIQGVR6WvEMvK5NMsIiPknDejANBgkqhkiG9w0BAQsFADAnMSUwIwYDVQQDHhwAQQBOAEcASQBPAFwAZgBtAGEAZQBzAHQAcgBlMB4XDTIwMDEyMDE5MjU0NFoXDTIxMDEyMDAxMjU0NFowJzElMCMGA1UEAx4cAEEATgBHAEkATwBcAGYAbQBhAGUAcwB0AHIAZTCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEA7SiatVtSMnW5j36OkfSJ/XHx6UfQVPBW5+SKz5nyZJdfgCX9r+332iSZ3wEqIrc5quEVocrUvkZQgLQhYlEtPEskWWLcpIIZeNyE3UHXt037+JsbhzsSiuEiBavCFz4JccrqcX1wfjdMGP5FmXj9a8wq4Q5I5uAxLU7WuumqnE8CAwEAATANBgkqhkiG9w0BAQsFAAOBgQAU+Ty+rtsIci2iqmewxY1gNimDxHR/HC88x9iYdBLXs8CmBxvZGlYHBNjTRrL7O51TE/RWV4HcSNqfdK5tQa/gozXE5e0EQFXjKHNspl2odhqYRvAnvkE0ms1vJVJoorWme2IX2nTliGoXUk2uXmlupw7rN7SuHem37brmzWx86A==</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
