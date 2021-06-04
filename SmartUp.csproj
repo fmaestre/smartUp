@@ -239,6 +239,18 @@
     <Content Include="ftptest.txt" />
     <Content Include="README.txt" />
     <Content Include="sh.ico" />
+    <Content Include="SmartUpConfigFiles\configNexus.txt" />
+    <Content Include="SmartUpConfigFiles\configSmartUp_Clinitek.txt" />
+    <Content Include="SmartUpConfigFiles\configSmartUp_ClinitekPlayas.txt" />
+    <Content Include="SmartUpConfigFiles\configSmartUp_Coagulyzer_4K.txt" />
+    <Content Include="SmartUpConfigFiles\configSmartUp_FileToSQL.txt" />
+    <Content Include="SmartUpConfigFiles\configSmartUp_NetworkGeneric.txt" />
+    <Content Include="SmartUpConfigFiles\configSmartUp_SerialGeneric.txt" />
+    <Content Include="SmartUpConfigFiles\configSmartUp_SocketGeneric.txt" />
+    <Content Include="SmartUpConfigFiles\configSmartUp_SocketGenericMindarayBC3600.txt" />
+    <Content Include="SmartUpConfigFiles\configSmartUp_SQLGenericToSQL.txt" />
+    <Content Include="SmartUpConfigFiles\configSmartUp_ST200.txt" />
+    <Content Include="SmartUpConfigFiles\___config.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

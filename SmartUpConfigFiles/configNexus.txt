@@ -1,0 +1,2 @@
+﻿Server=laboratorionexus.webhop.net;User=sa;Password=nexus123#;Db=smartlab;Table=Resultadosxxxxxx;
+Ana=9;Id=1;Res=15;Fec=5;sep=semicolon;filetype=1;file=C:\Users\fmaestre\Downloads\Envoy.xls;interface=ENVOY-BLUE MEDICAL;frequence=6000;type=fromfile;

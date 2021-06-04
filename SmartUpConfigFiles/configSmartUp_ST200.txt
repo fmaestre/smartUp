@@ -1,0 +1,58 @@
+﻿Server=MXTIJ01L034\SQLEXPRESS;User=sa;Password=sa;Db=smartlabELiMarg;Table=ResultadosImmulite;
+Ana=10;Id=5;Res=3;Fec=2;
+Analisis=Analisis;
+Resultado=Resultado;
+Ident_Muestra=Ident_Muestra;
+Fecha=Fecha;
+FechaReg=FechaReg;
+type=fromserialST200;sep=break;filetype=1;file=;interface=ST200;frequence=6000;
+serialport=COM2;
+BaudRate=9600;
+Parity=0;
+StopBits=1;
+DataBits=8;
+Handshake=2;
+BofMark=;
+EofMark=;
+BofMarkRes=;
+EofMarkRes=_ _ _ _;
+### //
+### // Summary:
+### //     No control is used for the handshake.
+### None = 0,
+### //
+### // Summary:
+### //     The XON/XOFF software control protocol is used. The XOFF control is sent to stop
+### //     the transmission of data. The XON control is sent to resume the transmission.
+### //     These software controls are used instead of Request to Send (RTS) and Clear to
+### //     Send (CTS) hardware controls.
+### XOnXOff = 1,
+### //
+### // Summary:
+### //     Request-to-Send (RTS) hardware flow control is used. RTS signals that data is
+### //     available for transmission. If the input buffer becomes full, the RTS line will
+### //     be set to false. The RTS line will be set to true when more room becomes available
+### //     in the input buffer.
+### RequestToSend = 2,
+### //
+### // Summary:
+### //     Both the Request-to-Send (RTS) hardware control and the XON/XOFF software controls
+### //     are used.
+### RequestToSendXOnXOff = 3
+### //
+### // Summary:
+### //     No stop bits are used. This value is not supported by the System.IO.Ports.SerialPort.StopBits
+### //     property.
+### None = 0,
+### //
+### // Summary:
+### //     One stop bit is used.
+### One = 1,
+### //
+### // Summary:
+### //     Two stop bits are used.
+### Two = 2,
+### //
+### // Summary:
+### //     1.5 stop bits are used.
+### OnePointFive = 3
